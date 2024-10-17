@@ -2,7 +2,7 @@ const axios = require('axios');
 module.exports = {
   name: 'ai',
   description: 'Ask a question to GPT-4',
-  author: 'Deku (rest api)',
+  author: 'Dev',
   async execute(senderId, args, pageAccessToken, sendMessage) {
     const prompt = args.join( );
     try {
